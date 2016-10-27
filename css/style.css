@@ -1,0 +1,280 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+.home-wp
+{
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), 
+ url('../images/ciudad.jpg')no-repeat center top;
+	background-size: cover;
+	color: white;
+}
+header
+{
+	background: rgba(48,48,48,0.5);
+	padding: 10px 0px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+}
+header nav a
+{
+	color: white;
+	font-weight: bold;
+	margin-left: 10px;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+.home-wp section
+{
+	text-align: center;
+}
+#home
+{
+	padding: 70px 0 150px;
+}
+#home img
+{
+	border: 3px solid #3da4b5;
+	border-radius: 50%;
+	width: 200px;
+}
+#home h1
+{
+	color: #39c2fb;
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 90px;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+.full
+{
+	color: #ff4300;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 67px;
+}
+
+#home h2
+{
+	border-bottom: 3px solid #39c2fb;
+	font-size: 38px;
+}
+
+#perfil
+{
+	background: url('../images/user.png')no-repeat center center;
+	border-bottom: 5px solid #39c2fb;
+	border-top: 5px solid #39c2fb;
+	color: white;
+}
+.info
+{
+	display: inline-block;
+	width: 49%;
+}
+.info p
+{
+	color: gray;
+	font-size: 16px;
+	margin-left: 38px;
+	text-align: center;
+}
+.info i
+{
+	color: #39c2fb;
+	font-size: 35px;
+	margin-right: 10px;
+}
+#que-hago
+{
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), 
+ url('../images/codigo.jpg')no-repeat center top;
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+#que-hago p
+{
+	font-size: 30px;
+}
+#que-hago img
+{
+	margin-left: 10px;
+}
+#que-hago #rails
+{
+	width: 60px;
+}
+#que-hago #zoho
+{
+	height: 50px;
+	width: 119px;
+}
+#que-hago #prestashop
+{
+	width: 63px;
+}
+#que-hago #html
+{
+	width: 70px;
+}
+#mi-experiencia
+{
+	text-align: center;
+}
+#mi-experiencia .box
+{
+	background: white;
+	border: 2px solid #e6e6e6;
+	display: inline-block;
+	margin: 1%;
+	text-align: center;
+	width: 30%;
+}
+#mi-experiencia .box img
+{
+	width: 100%;
+}
+#mi-experiencia .box p
+{
+	color: #666;
+	line-height: 2;
+}
+#mi-experiencia h3
+{
+	color: #666;
+	padding: 5px;
+}
+#contacto
+{
+	background: url('../images/contacto.jpg')no-repeat center center;
+	background-size: 1293px 450px;
+	border-bottom: 5px solid #39c2fb;
+	border-top: 5px solid #39c2fb;
+	color: white;
+}
+#contacto .social
+{
+	margin-top: 80px;
+	text-align: center;
+}
+#contacto .social a
+{
+	background: #39c2fb;
+	border-radius: 50%;
+	color: white;
+	display: inline-block;
+	font-size: 73px;
+	font-weight: bold;
+	height: 92px;
+	line-height: 35px;
+	margin-right: 10px;
+	moz-transition: all .3s;
+	transition: all .3s;
+	webkit-transition: all .3s;
+	width: 100px;
+}
+#contacto .social a:hover
+{
+	background: white;
+	color: #39c2fb;
+}
+#contacto .social i
+{
+	position: relative;
+	top: 10px;
+}
+.icons a
+{
+	background: black;
+	border-radius: 50%;
+	color: white;
+	display: inline-block;
+	font-size: 24px;
+	font-weight: bold;
+	height: 100px;
+	margin-right: 10px;
+	moz-transition: all .3s;
+	padding: 12px 0 0 0;
+	transition: all .3s;
+	webkit-transition: all .3s;
+	width: 110px;
+}
+.active
+{
+	background: #39c2fb;
+	border-radius: 6px;
+}
+section
+{
+	padding: 80px 0;
+}
+.container
+{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 992px;
+}
+.titulo
+{
+	color: #39c2fb;
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 80px;
+	margin-top: 0px;
+	text-align: center;
+}
+@media (max-width: 900px)
+{
+	header nav a
+	{
+		display: block;
+	}
+	#perfil
+	{
+		background: url('../images/user.png')no-repeat center right;
+		border-bottom: 5px solid #39c2fb;
+		border-top: 5px solid #39c2fb;
+	}
+	.info
+	{
+		display: block;
+		margin: 20px auto;
+		width: 90%;
+	}
+	.info p
+	{
+		text-align: left;
+	}
+	#que-hago p
+	{
+		font-size: 15px;
+	}
+	#que-hago #rails
+	{
+		width: 30px;
+	}
+	#que-hago #zoho
+	{
+		height: 25px;
+		width: 60px;
+	}
+	#que-hago #prestashop
+	{
+		width: 31px;
+	}
+	#que-hago #html
+	{
+		width: 35px;
+	}
+	#mi-experiencia .box
+	{
+		display: block;
+		margin: 20px auto;
+		width: 90%;
+	}
+}
